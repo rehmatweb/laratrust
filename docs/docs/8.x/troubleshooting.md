@@ -22,7 +22,7 @@ SQLSTATE[HY000]: General error: 1005 Can't create table 'laravelbootstrapstarter
 
 Then it is likely that the `id` column in your user table does not match the `user_id` column in `role_user`.
 Make sure both are `INT(10)`.
-
+i do not get this point please ellobrate that when i use the uuid for user id and int for role id will it work
 ---
 
 When trying to use the HasRolesAndPermissions methods, you encounter the error which looks like::
